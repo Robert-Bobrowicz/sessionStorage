@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,800;1,400&family=Poppins:ital,wght@0,400;0,600;0,800;1,400&family=Roboto+Mono:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    color: #05164d;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.btn {
+    width: 200px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background: #020b29;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.notes {
+    width: 65%;
+    height: 35vh;
+}
+
+.dark,
+.dark h2,
+.dark h3 {
+    background: #000000;
+    color: #fcfcfc;
+}
+
+.dark button {
+    background: #00040ef0;
+    color: #fcfcfc;
+    border: 1px solid #fcfc;
+}
+
+.dark textarea {
+    background: #00040ef0;
+    color: #fcfcfc;
+    border: 1px solid #fcfc;
+}
